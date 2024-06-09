@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Programação linear</title>
+</head>
+<body>
+     <!-- parte de menu -->
+     <header class="container-fluid bg-white pt-2 pb-2">
+        <main class="navbar navbar-expand-md navbar-light bg-light">
+            <!-- parte do menu humburge  -->
+            <span class="btn btn btn-outline-warning d-md-none" onmouseenter="entrar()" onclick="clicar()">menu</span>
+           <p class="bebas-neue-regular">Programação Linear</p>
+                <!-- link dos botões -->
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link btn btn btn-outline-warning" href="index.html">Pagina Inicial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn btn-outline-warning" href="linear.html">Programação Linear</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn btn-outline-warning" href="simplex.html">Algoritmo Simplex</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn btn-outline-warning" href="sobre.html">Sobre</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+        <!-- seção responsavel pela imagem e o texto -->
+    <section class="container-fluid text-center position-relative">
+        <img src="img/Inteligencia lógico-matemática_ qué es, características, ejemplos.jpeg" class="container-fulid" style="width: 100%;">
+        <!-- parte do banner com texto-->
+        <div class="text-dark shadow rounded position-absolute top-50 start-50 translate-middle p-4 w-100" style='background-color: rgba(255, 255, 255, 0.73);'>
+            <p class="bebas-neue-regular">Progrmação linear</p>
+        </div>
+    </section>
+<!-- parte responsavel pela sessão que contém as informações -->
+    <section class="container bg-white pt-4">
+       
+        <div class="container">
+            <h1 class="mb-4">O que é?</h1>
+            <p class="pb-2 mb-4">
+                A programação linear, no campo da programação matemática, é uma área da pesquisa operacional com vasta aplicação em apoio à decisão. O termo “programação”, tanto linear quanto matemática, não tem a ver diretamente
+                 com programação de computadores, ou linguagem de programação. Este termo tem origem em suas aplicações, originalmente desenvolvido para resolver problemas industriais. Assim, o termo “programação” da programação linear está relacionado ao planejamento de recursos
+                 escassos visando atender as condições operacionais. Estas, por sua vez, são representadas por equações e funções lineares.
+                A aplicação da programação linear em apoio à decisão ocorre na condição que se decide para atingir um objetivo. Este, por sua vez, é resultante da alocação ótima dos
+                 recursos. Por isso caracterizamos a programação linear como uma técnica de otimização. No problema de otimização em siderurgia, por exemplo, buscamos determinar a alocação ótima dos recursos de 
+                 produção de forma a atender as limitações de capacidades de cada usina e maximizar o lucro resultante. Tanto a função de maximizar o lucro quanto as restrições de capacidade de cada planta são representados por funções lineares. Neste exemplo, o tomador de decisão
+                  pode escolher diversas combinações de alocação de seus produtos, no entanto apenas uma combinação é a mais lucrativa. Esta e a combinação ótima que maximiza o lucro, uma função linear, do problema de programação linear.</p>
+        
+            <h1 class="mt-4">Programação linear: equações e funções são lineares</h1>
+
+            <p>Embora originalmente o tempo “programação” de programação linear não tem a ver diretamente com programação de computadores, os problemas reais não podem ser resolvidos manualmente, dada a dimensão de problemas reais.
+                Com a evolução da tecnologia de hardware e software, os algoritmos de programação linear são implementados em uma linguagem computacional para viabilizar a resolução de problemas reais em menor tempo. A programação 
+                linear, dessa forma, teve seu desenvolvimento junto com o desenvolvimento dos computadores, a partir da década de quarenta.</p>
+            
+            <p>A programação linear é uma das técnicas mais usadas dentre outras grandes áreas da pesquisa operacional, como simulação, teoria de filas, programação dinâmica, teoria dos jogos. O problema de programação linear foi inventado pelo matemático Russo L. Kantorovich em 1939.
+                L. Kantorovich e T. Koopmans ganharam o prêmio Nobel por suas contribuições à teoria de alocação ótima de recursos. No entanto, o algoritmo mais utilizado para resolver problemas de programação linear é o simplex e suas variações (primal simplex, dual simplex, simplex revisado) 
+                formalizado por George Dantzig em 1947 enquanto trabalhava no projeto de computação científica de otimização SCOOP (Scientific Computation of Optimal Programs) na RAND (Research and Development) Corporation para a Força Aérea Americana.</p>
+            
+            <p>Diversas áreas utilizam a programação linear para apoio a decisão. Dentre as áreas de aplicação estão: planejamento logístico de frotas e rotas, planejamento da produção de longo, médio e curto prazo, decisão em escolha de mix de produtos em manufatura, estratégias operacionais
+                em mineração, siderurgia, petroquímicas, agricultura,  decisão de localização de facilidade ou instalação de fábricas ou centros de distribuição,  decisão em finanças na escolha da melhor carteira de investimentos, entre outros.</p>
+
+        </div>   
+    
+    </section>
+<!-- parte responsavel pelo iframe dos videos -->
+    <section class="container row row-cols-auto mx-auto p-2">
+        <h1>Vídeo aulas</h1>
+        <div class="ratio ratio-21x9" style="--bs-aspect-ratio: 50%;">
+            <iframe src="https://www.youtube.com/embed/mjqI5s_-xfQ?si=EeEZwTLL7UnLyz_U" title="YouTube video" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratio ratio-21x9 pt-4 mt-4" style="--bs-aspect-ratio: 50%;">
+            <iframe src="https://www.youtube.com/embed/n0g3wAUsxD8?si=VZ3ZKgRuLIBFHE4W" title="YouTube video" allowfullscreen></iframe>
+        </div>
+
+        <div class="ratio ratio-21x9 pt-4 mt-4" style="--bs-aspect-ratio: 50%;">
+            <iframe src="https://www.youtube.com/embed/4AbjF8Lehe8?si=Wr9iOzCBJBCdUYLe" title="YouTube video" allowfullscreen></iframe>
+        </div>
+
+    </section>
+<!-- Parte responsavel pelo footer -->
+<footer class="pt-4">
+    <div class="card ">
+        <div class="card-header ">
+          Seja bem-vindo
+        </div>
+        <div class="card-body bg-dark text-white text-center ">
+          <h5 class="card-title">Developed by</h5>
+          <p class="card-text">Geovane e Ane </p>
+          <p class="card-text">Link para as imagens usada no site </p>
+          <a href="https://pin.it/7kwHdVysV" class="btn btn-link">pinterest.com</a>
+        </div>
+      </div>
+</footer>
+
+
+    <script src="js/menu.js"></script>
+</body>
+</html>
